@@ -109,10 +109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747a7c2cd3c18124592813ee6b3fb8c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 100
+  movementSpeed: 40
   bulletPrefab: {fileID: 994045889546322106, guid: fb68a5822c9af4e409ad465e7847f9f9,
     type: 3}
-  fireDelay: 0.1
+  fireDelay: 0.3
 --- !u!54 &350891289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747a7c2cd3c18124592813ee6b3fb8c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 100
-  bulletPrefab: {fileID: 0}
-  fireDelay: 0.1
+  movementSpeed: 40
+  bulletPrefab: {fileID: 994045889546322106, guid: fb68a5822c9af4e409ad465e7847f9f9,
+    type: 3}
+  fireDelay: 0.3

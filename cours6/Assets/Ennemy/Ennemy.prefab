@@ -107,6 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e1a97123e7d0e4f9b712188aa045ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMusic: {fileID: 11400000, guid: e90d747d2260dc34295d73e3ebeff60c, type: 2}
+  deathParticle: {fileID: 6412946435267728825, guid: 07c6bc3eca7de8b4084659fb5743e87c,
+    type: 3}
 --- !u!54 &5116322524370411805
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     Rigidbody myRigidBody;
-    public int lifeSpan = 3;
-    public int bulletVelocity = 1;
+    public int lifeSpan = 5;
+    public int bulletVelocity = 4;
     public int bulletDamage = 1;
     private float timeLeftToLive;
     // Start is called before the first frame update
@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
     {
         myRigidBody = GetComponent<Rigidbody>();
         timeLeftToLive = lifeSpan;
+        Destroy(gameObject, lifeSpan);
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class Bullet : MonoBehaviour
         if (damageableObject != null)
         {
             damageableObject.TakeDamage(1);
+            Destroy(gameObject);
         }
     }
 }
